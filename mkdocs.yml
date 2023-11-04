@@ -1,3 +1,5 @@
 site_name: Yozorazaka46
 theme:
   name: material
+  pallete:
+    primary: blue grey
