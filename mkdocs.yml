@@ -1,5 +1,133 @@
+# Copyright (c) 2023 Dhika Mahendra S (dhikamahendra789@gmail.com)
+
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to
+# deal in the Software without restriction, including without limitation the
+# rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+# sell copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
+
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+# FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+# IN THE SOFTWARE.
+
+# Site Information
 site_name: Yozorazaka46
+site_url: https://tkrdhk.gitlab.io/yozorazaka46
+site_author: Dhika Mahendra S
+site_description: >-
+  Just write anything what i've done before
+
+# Repository
+repo_name: tkrdhk/yozorazaka46
+repo_url: https://gitlab.com/tkrdhk/yozorazaka46
+
+# Copyright
+copyright: Copyright &copy; 2023 Yozorazaka46 |
+           <a href="#__consent">Change cookie settings</a>
+
+# Navigation Menu
+nav:
+  - Home: index.md
+
+# Configuration
 theme:
   name: material
+  custom_dir: overrides
+  
+  # Features
+  features:
+
+    # Navigations
+    - navigation.sections
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.prune
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+  
+    # TOC
+    - toc.follow
+    - toc.integrate
+
+    # Search
+    - search.suggest
+    - search.highlight
+
+    # Header
+    - header.autohide
+
+  # Languange for site
+  languange: id
+
+  # Logo, favicon and icon
+  logo: assets/images/logo.png
+  favicon: assets/images/favicon.png
+  icon:
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
+    tag: 
+      default: fontawesome/solid/tag
+    repo: fontawesome/brands/gitlab
+
+  # Font
+  font:
+    text: PT Sans
+    code: Roboto Mono
+
+  # Color Scheme
   pallete:
-    primary: blue grey
+    scheme: default
+    primary: custom
+    accent: custom
+
+extra:
+  homepage: https://tkrdhk.gitlab.io/yozorazaka46
+
+  # Cookies Settings
+  consent:
+    title: Privasi Cookie
+    description: >- 
+      Kami menggunakan cookie untuk mengenali kunjungan berulang dan preferensi Anda,
+      untuk mengukur efektivitas dokumentasi kami, dan apakah pengguna
+      menemukan apa yang mereka cari. Dengan persetujuan Anda, Anda membantu kami
+      membuat dokumentasi kami lebih baik.
+    cookies:
+      analytics:
+        name: Google Analytics
+        checked: false
+    actions:
+      - accept
+      - reject
+      - manage
+
+  alternate:
+    - name: English
+      link: en
+      lang: en
+
+  social:
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/tkrdmz
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+plugins:
+ - search
+ - blog
+ - tags
+  
