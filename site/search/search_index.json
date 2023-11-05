@@ -1,1 +1,1 @@
-{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"","title":"Wlcom","text":""},{"location":"blog/","title":"Blog","text":""}]}
+{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"","title":"Material for MkDocs","text":"<p>Welcome to Material for MkDocs.</p>"},{"location":"knowledge-base/","title":"Knowledge Base","text":""},{"location":"knowledge-base/#_1","title":"KB","text":""},{"location":"blog/","title":"Blog","text":""}]}

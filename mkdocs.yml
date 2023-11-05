@@ -23,7 +23,7 @@ site_name: Yozorazaka46
 site_url: https://tkrdhk.gitlab.io/yozorazaka46
 site_author: Dhika Mahendra S
 site_description: >-
-  Just write anything what i've done before
+  I simply documented every technique, stage, configuration, and my experience.
 
 # Repository
 repo_name: tkrdhk/yozorazaka46
@@ -33,14 +33,10 @@ repo_url: https://gitlab.com/tkrdhk/yozorazaka46
 copyright: Copyright &copy; 2023 Yozorazaka46 |
            <a href="#__consent">Change cookie settings</a>
 
-# Navigation Menu
-nav:
-  - Home: index.md
-
 # Configuration
 theme:
   name: material
-  custom_dir: overrides
+  custom_dir: themes/overrides
   
   # Features
   features:
@@ -61,7 +57,6 @@ theme:
   
     # TOC
     - toc.follow
-    - toc.integrate
 
     # Search
     - search.suggest
@@ -89,10 +84,19 @@ theme:
     code: Roboto Mono
 
   # Color Scheme
-  pallete:
-    scheme: default
-    primary: custom
-    accent: custom
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
 
 extra:
   homepage: https://tkrdhk.gitlab.io/yozorazaka46
@@ -130,4 +134,7 @@ plugins:
  - search
  - blog
  - tags
-  
+
+nav:
+  - Home: index.md
+  - KB: knowledge-base.md
