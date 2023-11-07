@@ -1,4 +1,4 @@
-# Copyright (c) 2023 Dhika Mahendra S (dhikamahendra789@gmail.com)
+# Copyright (c) 2023 Dhika Mahendra S <dhikamahendra789@gmail.com>
 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to
@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-# Site Information
+# Project information
 site_name: Yozorazaka46
 site_url: https://tkrdhk.gitlab.io/yozorazaka46
 site_author: Dhika Mahendra S
@@ -34,81 +34,122 @@ copyright: Copyright &copy; 2023 Yozorazaka46 |
            <a href="#__consent">Change cookie settings</a>
 
 # Configuration
+# Themes
 theme:
   name: material
   custom_dir: themes/overrides
-  
+
   # Features
   features:
-
-    # Navigations
-    - navigation.sections
-    - navigation.instant
+    - announce.dismiss
+    # - content.action.edit
+    # - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    # - content.code.select
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    - navigation.footer
+    - navigation.indexes
+    - navigation.path
     - navigation.instant.progress
+    - navigation.sections
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.sections
-    - navigation.expand
-    - navigation.path
-    - navigation.prune
-    - navigation.indexes
     - navigation.top
-    - navigation.footer
-  
-    # TOC
+    - navigation.tracking
+    - search.highlight
+    - search.suggest
     - toc.follow
 
-    # Search
-    - search.suggest
-    - search.highlight
-
-    # Header
-    - header.autohide
-
-  # Languange for site
-  languange: id
-
-  # Logo, favicon and icon
-  logo: assets/images/logo.png
-  favicon: assets/images/favicon.png
-  icon:
-    previous: fontawesome/solid/angle-left
-    next: fontawesome/solid/angle-right
-    tag: 
-      default: fontawesome/solid/tag
-    repo: fontawesome/brands/gitlab
-
-  # Font
-  font:
-    text: PT Sans
-    code: Roboto Mono
-
-  # Color Scheme
+  # Color Schema
   palette:
-    - scheme: default
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       primary: custom
       accent: custom
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
-    - scheme: slate
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       primary: black
-      accent: indigo
+      accent: purple
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
 
-extra:
-  homepage: https://tkrdhk.gitlab.io/yozorazaka46
+  # Font, Logo and Icon
+  logo: images/logo.png
+  favicon: images/favicon.png
+  font:
+    text: PT Sans
+    code: Roboto Mono
+  icon:
+    logo: images/logo.png
+    tag:
+      linux: fontawesome/brands/linux
+      mariadb: fontawesome/brands/mdb
+    repo: fontawesome/brands/gitlab
 
+# Extra CSS
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
+
+# Plugins
+plugins:
+  - blog
+  - tags
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+
+# Hooks
+#hooks:
+#  - material/overrides/hooks/shortcodes.py
+#  - material/overrides/hooks/translations.py
+
+# Additional configuration
+extra:
+  annotate:
+    json: [.s2]
+#  analytics:
+#    provider: google
+#    property: !ENV GOOGLE_ANALYTICS_KEY
+
+  # Footer social links
+  social:
+    - icon: fontawesome/brands/gitlab
+      link: https://gitlab.com/tkrdhk
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/yozorazaka46
+    - icon: fontawesome/brands/x-twitter
+      link: https://twitter.com/yzrzk46
+    - icon: fontawesome/solid/envelope
+      link: mailto:dhikamahendra789@gmail.com
+  
+  # Homepage logo link
+  homepage: https://tkrdhk.gitlab.io/yozorazaka46
+  
+  # Site source
+  generator: false
+  
+  # Customize tags
+  tags:
+    Linux: linux
+    MariaDB: mariadb
+  
   # Cookies Settings
   consent:
-    title: Privasi Cookie
+    title: Cookies Privacy
     description: >- 
-      Kami menggunakan cookie untuk mengenali kunjungan berulang dan preferensi Anda,
-      untuk mengukur efektivitas dokumentasi kami, dan apakah pengguna
-      menemukan apa yang mereka cari. Dengan persetujuan Anda, Anda membantu kami
-      membuat dokumentasi kami lebih baik.
+      We use cookies to recognize repeat visits and your preferences,
+      to measure the effectiveness of our documentation, and whether users
+      find what they are looking for. With your consent, you help us
+      making our documentation better.
     cookies:
       analytics:
         name: Google Analytics
@@ -118,23 +159,55 @@ extra:
       - reject
       - manage
 
-  alternate:
-    - name: English
-      link: en
-      lang: en
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: false
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
 
-  social:
-    - icon: fontawesome/brands/instagram
-      link: https://instagram.com/tkrdmz
-
-extra_css:
-  - assets/stylesheets/extra.css
-
-plugins:
- - search
- - blog
- - tags
-
+# Page tree
 nav:
   - Home: index.md
-  - KB: knowledge-base.md
+  - KB: kb.md
+  - Resources: 
+      - resources/index.md
+      - Terms of Conditions: resources/toc.md
+      - Privacy Policy: resources/privacy.md

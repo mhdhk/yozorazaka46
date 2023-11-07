@@ -2,17 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://tkrdhk.gitlab.io/yozorazaka46/</loc>
-         <lastmod>2023-11-05</lastmod>
+         <lastmod>2023-11-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://tkrdhk.gitlab.io/yozorazaka46/knowledge-base/</loc>
-         <lastmod>2023-11-05</lastmod>
+         <loc>https://tkrdhk.gitlab.io/yozorazaka46/kb/</loc>
+         <lastmod>2023-11-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://tkrdhk.gitlab.io/yozorazaka46/blog/</loc>
-         <lastmod>2023-11-05</lastmod>
+         <lastmod>2023-11-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://tkrdhk.gitlab.io/yozorazaka46/resources/</loc>
+         <lastmod>2023-11-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://tkrdhk.gitlab.io/yozorazaka46/resources/privacy/</loc>
+         <lastmod>2023-11-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://tkrdhk.gitlab.io/yozorazaka46/resources/toc/</loc>
+         <lastmod>2023-11-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
