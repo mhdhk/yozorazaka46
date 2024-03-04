@@ -2,32 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://tkrdhk.gitlab.io/yozorazaka46/</loc>
-         <lastmod>2023-11-07</lastmod>
+         <lastmod>2024-03-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://tkrdhk.gitlab.io/yozorazaka46/kb/</loc>
-         <lastmod>2023-11-07</lastmod>
+         <lastmod>2024-03-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://tkrdhk.gitlab.io/yozorazaka46/blog/</loc>
-         <lastmod>2023-11-07</lastmod>
+         <lastmod>2024-03-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://tkrdhk.gitlab.io/yozorazaka46/os/debian/</loc>
+         <lastmod>2024-03-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://tkrdhk.gitlab.io/yozorazaka46/os/debian/gitlab-installation-debian-12/</loc>
+         <lastmod>2024-03-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://tkrdhk.gitlab.io/yozorazaka46/resources/</loc>
-         <lastmod>2023-11-07</lastmod>
+         <lastmod>2024-03-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://tkrdhk.gitlab.io/yozorazaka46/resources/privacy/</loc>
-         <lastmod>2023-11-07</lastmod>
+         <lastmod>2024-03-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://tkrdhk.gitlab.io/yozorazaka46/resources/toc/</loc>
-         <lastmod>2023-11-07</lastmod>
+         <lastmod>2024-03-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

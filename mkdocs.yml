@@ -46,7 +46,7 @@ theme:
     # - content.action.view
     - content.code.annotate
     - content.code.copy
-    # - content.code.select
+    - content.code.select
     # - content.tabs.link
     - content.tooltips
     # - header.autohide
@@ -182,13 +182,14 @@ markdown_extensions:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
+      use_pygments: true
   - pymdownx.inlinehilite
   - pymdownx.keys
   - pymdownx.magiclink:
       normalize_issue_symbols: true
       repo_url_shorthand: true
-      user: squidfunk
-      repo: mkdocs-material
+      user: tkrdhk
+      repo: yozorazaka46
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.superfences:
@@ -196,6 +197,12 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+        
+        - name: '*'
+          class: '*'
+          format: !!python/name:superfences_examples.prefix.formatter
+          validator: !!python/name:superfences_examples.prefix.validator
+
   - pymdownx.tabbed:
       alternate_style: true
       combine_header_slug: true
@@ -211,3 +218,5 @@ nav:
       - resources/index.md
       - Terms of Conditions: resources/toc.md
       - Privacy Policy: resources/privacy.md
+  - OS: 
+      - Debian: os/debian/index.md

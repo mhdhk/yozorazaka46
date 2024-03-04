@@ -22,9 +22,10 @@ The following is a list of categories and all of the content on this website:
 
     - [Test-link](https://google.com)
 
-=== ":fontawesome-brands-centos: `CentOS`"
+=== ":fontawesome-brands-linux: `Other Linux`"
 
     - [Test-link](https://google.com)
+    - [Install Gitlab CE on Debian 12](os/debian/gitlab-installation-debian-12.md)
 
 === ":fontawesome-brands-windows: `Windows`"
 

@@ -9,5 +9,25 @@
     --md-accent-fg-color--transparent:   #D1C4E9;
     --md-accent-bg-color:                #FFFFFF;
     --md-accent-bg-color--light:         #CFD8DC;
-    
+ 
+    .md-typeset h1, h2, h3 {
+        font-weight: bolder;
+    }
+
+    .md-typeset h2 {
+        padding-bottom: 10px;
+    }
+
+    .md-typeset p {
+        text-align: justify;
+    }
+
+    .mdx-hero__content p{
+        text-align: left;
+    }
+
+    .highlight span.filename {
+        background-color: #1c2c5c;
+        color:#FFFFFF;
+    }
 }
