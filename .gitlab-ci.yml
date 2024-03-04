@@ -3,6 +3,7 @@ pages:
   image: python:latest
   script:
     - pip install mkdocs-material
+    - python setup.py sdist bdist_wheel
     - mkdocs build --site-dir public
   artifacts:
     paths:
