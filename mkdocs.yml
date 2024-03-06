@@ -38,6 +38,8 @@ copyright: Copyright &copy; 2024 Yozorazaka46 |
 theme:
   name: material
   custom_dir: themes/overrides
+  static_templates:
+  - 404.html
 
   # Features
   features:
