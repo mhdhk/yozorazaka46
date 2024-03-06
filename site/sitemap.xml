@@ -2,42 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://tkrdhk.gitlab.io/yozorazaka46/</loc>
-         <lastmod>2024-03-04</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://tkrdhk.gitlab.io/yozorazaka46/kb/</loc>
-         <lastmod>2024-03-04</lastmod>
+         <lastmod>2024-03-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://tkrdhk.gitlab.io/yozorazaka46/blog/</loc>
-         <lastmod>2024-03-04</lastmod>
+         <lastmod>2024-03-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://tkrdhk.gitlab.io/yozorazaka46/os/debian/</loc>
-         <lastmod>2024-03-04</lastmod>
+         <loc>https://tkrdhk.gitlab.io/yozorazaka46/knowledge-base/</loc>
+         <lastmod>2024-03-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://tkrdhk.gitlab.io/yozorazaka46/os/debian/gitlab-installation-debian-12/</loc>
-         <lastmod>2024-03-04</lastmod>
+         <loc>https://tkrdhk.gitlab.io/yozorazaka46/knowledge-base/db/mariadb/mariadb-index/</loc>
+         <lastmod>2024-03-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://tkrdhk.gitlab.io/yozorazaka46/knowledge-base/os/almalinux/alma-index/</loc>
+         <lastmod>2024-03-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://tkrdhk.gitlab.io/yozorazaka46/knowledge-base/os/debian/debian-index/</loc>
+         <lastmod>2024-03-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://tkrdhk.gitlab.io/yozorazaka46/knowledge-base/os/debian/install-gitlabce-debian-12/</loc>
+         <lastmod>2024-03-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://tkrdhk.gitlab.io/yozorazaka46/knowledge-base/os/ubuntusv/ubuntu-index/</loc>
+         <lastmod>2024-03-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://tkrdhk.gitlab.io/yozorazaka46/knowledge-base/os/windowssv2019/windows2019-index/</loc>
+         <lastmod>2024-03-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://tkrdhk.gitlab.io/yozorazaka46/resources/</loc>
-         <lastmod>2024-03-04</lastmod>
+         <lastmod>2024-03-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://tkrdhk.gitlab.io/yozorazaka46/resources/privacy/</loc>
-         <lastmod>2024-03-04</lastmod>
+         <lastmod>2024-03-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://tkrdhk.gitlab.io/yozorazaka46/resources/toc/</loc>
-         <lastmod>2024-03-04</lastmod>
+         <lastmod>2024-03-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
