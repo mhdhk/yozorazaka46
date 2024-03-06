@@ -1,0 +1,238 @@
+# Copyright (c) 2024 Dhika Mahendra Sudrajat <dhikamahendra789@gmail.com>
+
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to
+# deal in the Software without restriction, including without limitation the
+# rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+# sell copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
+
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+# FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+# IN THE SOFTWARE.
+
+# Project information
+site_name: Yozorazaka46
+site_url: https://tkrdhk.gitlab.io/yozorazaka46
+site_author: Dhika Mahendra Sudrajat
+site_description: >-
+  I simply documented every technique, stage, configuration, and my experience.
+
+# Repository
+repo_name: tkrdhk/yozorazaka46
+repo_url: https://gitlab.com/tkrdhk/yozorazaka46
+
+# Copyright
+copyright: Copyright &copy; 2024 Yozorazaka46 |
+           <a href="#__consent">Change cookie settings</a>
+
+# Configuration
+# Themes
+theme:
+  name: material
+  custom_dir: themes/overrides
+
+  # Features
+  features:
+    - announce.dismiss
+    # - content.action.edit
+    # - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    - navigation.footer
+    - navigation.indexes
+    - navigation.path
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.suggest
+    - toc.follow
+
+  # Color Schema
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+  # Font, Logo and Icon
+  logo: images/logo.png
+  favicon: images/favicon.png
+  font:
+    text: PT Sans
+    code: Roboto Mono
+  icon:
+    logo: images/logo.png
+    tag:
+      almalinux: fontawesome/solid/star-of-life
+      debian: fontawesome/brands/debian
+      mariadb: fontawesome/solid/database
+      ubuntu: fontawesome/brands/ubuntu
+      windows: fontawesome/brands/windows
+    repo: fontawesome/brands/gitlab
+
+# Extra CSS
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
+
+# Plugins
+plugins:
+  - blog
+  - tags
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
+
+# Hooks
+#hooks:
+#  - material/overrides/hooks/shortcodes.py
+#  - material/overrides/hooks/translations.py
+
+# Additional configuration
+extra:
+
+  annotate:
+    json: [.s2]
+#  analytics:
+#    provider: google
+#    property: !ENV GOOGLE_ANALYTICS_KEY
+
+  # Footer social links
+  social:
+    - icon: fontawesome/brands/gitlab
+      link: https://gitlab.com/tkrdhk
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/yozorazaka46
+    - icon: fontawesome/brands/x-twitter
+      link: https://twitter.com/yzrzk46
+    - icon: fontawesome/solid/envelope
+      link: mailto:dhikamahendra789@gmail.com
+  
+  # Homepage logo link
+  homepage: https://tkrdhk.gitlab.io/yozorazaka46
+  
+  # Site source
+  generator: false
+  
+  # Customize tags
+  tags:
+    Alma Linux: almalinux
+    Debian: debian
+    MariaDB: mariadb
+    Ubuntu: ubuntu
+    Windows: windows
+  
+  # Cookies Settings
+  consent:
+    title: Cookies Privacy
+    description: >- 
+      We use cookies to recognize repeat visits and your preferences,
+      to measure the effectiveness of our documentation, and whether users
+      find what they are looking for. With your consent, you help us
+      making our documentation better.
+    cookies:
+      analytics:
+        name: Google Analytics
+        checked: false
+    actions:
+      - accept
+      - reject
+      - manage
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: false
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+      use_pygments: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      user: tkrdhk
+      repo: yozorazaka46
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+        
+        - name: '*'
+          class: '*'
+          format: !!python/name:superfences_examples.prefix.formatter
+          validator: !!python/name:superfences_examples.prefix.validator
+
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Page tree
+nav:
+  - Home: index.md
+  - Knowledge Base:
+      - knowledge-base/index.md
+      - Alma Linux: knowledge-base/os/almalinux/alma-index.md
+      - Debian: knowledge-base/os/debian/debian-index.md
+      - MariaDB: knowledge-base/db/mariadb/mariadb-index.md
+      - Ubuntu: knowledge-base/os/ubuntusv/ubuntu-index.md
+      - Windows Server 2019: knowledge-base/os/windowssv2019/windows2019-index.md
+  - Resources: 
+      - resources/index.md
+      - Terms of Conditions: resources/toc.md
+      - Privacy Policy: resources/privacy.md
