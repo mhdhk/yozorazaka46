@@ -1,4 +1,4 @@
-# Copyright (c) 2023 Dhika Mahendra S <dhikamahendra789@gmail.com>
+# Copyright (c) 2024 Dhika Mahendra Sudrajat <dhikamahendra789@gmail.com>
 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to
@@ -21,7 +21,7 @@
 # Project information
 site_name: Yozorazaka46
 site_url: https://tkrdhk.gitlab.io/yozorazaka46
-site_author: Dhika Mahendra S
+site_author: Dhika Mahendra Sudrajat
 site_description: >-
   I simply documented every technique, stage, configuration, and my experience.
 
@@ -53,6 +53,7 @@ theme:
     - navigation.footer
     - navigation.indexes
     - navigation.path
+    - navigation.instant
     - navigation.instant.progress
     - navigation.sections
     - navigation.tabs
@@ -89,8 +90,11 @@ theme:
   icon:
     logo: images/logo.png
     tag:
-      linux: fontawesome/brands/linux
-      mariadb: fontawesome/brands/mdb
+      almalinux: fontawesome/solid/star-of-life
+      debian: fontawesome/brands/debian
+      mariadb: fontawesome/solid/database
+      ubuntu: fontawesome/brands/ubuntu
+      windows: fontawesome/brands/windows
     repo: fontawesome/brands/gitlab
 
 # Extra CSS
@@ -107,6 +111,10 @@ plugins:
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
 
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
+
 # Hooks
 #hooks:
 #  - material/overrides/hooks/shortcodes.py
@@ -114,6 +122,7 @@ plugins:
 
 # Additional configuration
 extra:
+
   annotate:
     json: [.s2]
 #  analytics:
@@ -139,8 +148,11 @@ extra:
   
   # Customize tags
   tags:
-    Linux: linux
+    Alma Linux: almalinux
+    Debian: debian
     MariaDB: mariadb
+    Ubuntu: ubuntu
+    Windows: windows
   
   # Cookies Settings
   consent:
@@ -213,10 +225,14 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: index.md
-  - KB: kb.md
+  - Knowledge Base:
+      - knowledge-base/index.md
+      - Alma Linux: knowledge-base/os/almalinux/alma-index.md
+      - Debian: knowledge-base/os/debian/debian-index.md
+      - MariaDB: knowledge-base/db/mariadb/mariadb-index.md
+      - Ubuntu: knowledge-base/os/ubuntusv/ubuntu-index.md
+      - Windows Server 2019: knowledge-base/os/windowssv2019/windows2019-index.md
   - Resources: 
       - resources/index.md
       - Terms of Conditions: resources/toc.md
       - Privacy Policy: resources/privacy.md
-  - OS: 
-      - Debian: os/debian/index.md

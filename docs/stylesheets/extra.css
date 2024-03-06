@@ -30,4 +30,43 @@
         background-color: #1c2c5c;
         color:#FFFFFF;
     }
+
+    .md-typeset .admonition.note {
+        border-color: #29B6F6;
+    }
+
+    .md-typeset .admonition.info {
+        border-color: #01579B;
+    }
+
+    .md-typeset .admonition.tip {
+        border-color: #00897B;
+    }
+
+    .md-typeset .admonition.success {
+        border-color: #4CAF50;
+    }
+
+    .md-typeset .admonition.question {
+        border-color: #81C784;
+    }
+
+    .md-typeset .admonition.warning {
+        border-color: #FFEE58;
+    }
+
+    .md-typeset .admonition.failure {
+        border-color: #F44336;
+    }
+
+    .md-typeset .admonition.quote {
+        border-color: #B0BEC5;
+    }
+
+    .md-typeset .admonition {
+        border: 0em;
+        border-left: 0.40em solid #1c2c5c;
+        border-radius: 0%;
+    }
+
 }

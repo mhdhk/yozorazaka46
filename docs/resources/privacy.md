@@ -12,7 +12,7 @@ Last Updated: **November, 7th 2023.**
 
 #### 1. Introduction
 
-Welcome to **Yozorazaka46**. We are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and protect your personal data when you visit our website.
+Welcome to **Yozorazaka46**.  committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and protect your personal data when you visit our website.
 
 <br>
 
@@ -24,13 +24,13 @@ We may collect personal information, such as your name, email address, phone num
 
 - Register for an account on our website.
 - Subscribe to our newsletter.
-- Contact us through our contact form.
+- Contact use through the website contact form.
 - Make a purchase or request our services.
 - Participate in surveys or promotions.
 
 **2.2.** Usage Data
 
-We may collect data about how you use our website, including your IP address, browser type, device information, and pages visited. This information helps us improve our website's performance and user experience.
+This website may collect data about how you use our website, including your IP address, browser type, device information, and pages visited. This information helps us to improve this website's performance and user experience.
 
 <br>
 
@@ -95,6 +95,6 @@ If you have any questions or concerns about this Privacy Policy, please contact 
 
 Sincerely,
 
-**Dhika Mahendra S**<br>
+**Dhika Mahendra Sudrajat**<br>
 Yozorazaka46<br>
 Bekasi, Indonesia 17117

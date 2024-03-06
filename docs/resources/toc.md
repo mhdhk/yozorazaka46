@@ -13,7 +13,7 @@ hide:
 
     As a result, the Yozorazaka46 website administrator is solely responsible for all content on this website. Please contact **dhikamahendra789@gmail.com** if you have any questions about material removal or copyright.
 
-    However, the Sakamichi group inspired the moniker of this website, which became the reason for its creation. I hope that my website can assist individuals (on the internet) like my idols.
+    However, the Sakamichi group inspired the moniker of this website, which became the reason for its creation. We hope that my website can assist individuals (on the internet) like my idols.
 
     **乃木坂46、櫻坂46、日向坂46、本当にありがとうございました！**
 
@@ -89,6 +89,6 @@ If you have any questions or concerns about these terms and conditions, please c
 
 Sincerely,
 
-**Dhika Mahendra S**<br>
+**Dhika Mahendra Sudrajat**<br>
 Yozorazaka46<br>
 Bekasi, Indonesia 17117
