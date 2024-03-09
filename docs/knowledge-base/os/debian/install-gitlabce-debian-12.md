@@ -1,11 +1,13 @@
 ---
 tags:
   - Debian
-title: Install self-managed Gitlab CE on Debian 12
+title: Install Self-managed Gitlab CE on Debian 12
 ---
 
-# Install self-managed Gitlab CE on Debian 12
+
+# Install Self-managed Gitlab CE on Debian 12
 ---
+
 
 ## A. Requirements
 
@@ -20,9 +22,9 @@ title: Install self-managed Gitlab CE on Debian 12
 
 ### 1. **Setup repository**
 
-Use the following command to change `/etc/apt/sources.list` as the **root** user in order to configure the repository in Debian 12:
+Before we install and setup Gitlab CE, we must add some Debian repositories for installing the packages requirement which needed for Gitlab CE installation. Use the following command to change `/etc/apt/sources.list` as the **root** user in order to configure the repository in Debian 12:
 
-```{.bash prefix="[root@gitlab ~]#"}
+```{.bash prefix="[root@gitlab ~]#" lines=2}
 sudo su -
 nano /etc/apt/sources.list
 ```

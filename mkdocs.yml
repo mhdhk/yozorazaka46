@@ -55,7 +55,7 @@ theme:
     - navigation.path
     - navigation.instant
     - navigation.instant.progress
-    - navigation.sections
+    # - navigation.sections
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.top
@@ -115,6 +115,8 @@ plugins:
       enable_creation_date: true
       type: date
 
+  - glightbox
+
 # Hooks
 #hooks:
 #  - material/overrides/hooks/shortcodes.py
@@ -148,7 +150,7 @@ extra:
   
   # Customize tags
   tags:
-    Alma Linux: almalinux
+    AlmaLinux: almalinux
     Debian: debian
     MariaDB: mariadb
     Ubuntu: ubuntu
@@ -227,8 +229,12 @@ nav:
   - Home: index.md
   - Knowledge Base:
       - knowledge-base/index.md
-      - Alma Linux: knowledge-base/os/almalinux/alma-index.md
-      - Debian: knowledge-base/os/debian/debian-index.md
+      - AlmaLinux:
+        - knowledge-base/os/almalinux/alma-index.md
+        - Install AlmaLinux 9 Minimal Version: knowledge-base/os/almalinux/install-almalinux9.md
+      - Debian:
+        - knowledge-base/os/debian/debian-index.md
+        - Install Self-managed Gitlab CE on Debian 12: knowledge-base/os/debian/install-gitlabce-debian-12.md
       - MariaDB: knowledge-base/db/mariadb/mariadb-index.md
       - Ubuntu: knowledge-base/os/ubuntusv/ubuntu-index.md
       - Windows Server 2019: knowledge-base/os/windowssv2019/windows2019-index.md

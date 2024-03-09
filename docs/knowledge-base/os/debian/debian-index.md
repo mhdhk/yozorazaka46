@@ -12,4 +12,4 @@ This page shows contents that has been categorized or labeled as Debian knowledg
 
 **List content of Debian KB:**
 
-1. [Install self-managed Gitlab CE on Debian 12](./install-gitlabce-debian-12.md)
+1. [Install Self-managed Gitlab CE on Debian 12](./install-gitlabce-debian-12.md)

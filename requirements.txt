@@ -4,3 +4,4 @@ mike>=1.1.2
 beautifulsoup4>=4.8.2
 lxml>=4.5.0
 mkdocs-git-revision-date-localized-plugin>=1.2.4
+mkdocs-glightbox>=0.3.7

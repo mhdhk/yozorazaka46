@@ -1,13 +1,15 @@
 ---
 tags:
-  - Alma Linux
+  - AlmaLinux
 hide:
   - tags
-title: Alma Linux Index
+title: AlmaLinux Index
 ---
 
-# Index for Alma Linux KB
+# Index for AlmaLinux KB
 
-This page shows contents that has been categorized or labeled as Alma Linux knowledge base.
+This page shows contents that has been categorized or labeled as AlmaLinux knowledge base.
 
-**List content of Alma Linux KB:**
+**List content of AlmaLinux KB:**
+
+1. [Install AlmaLinux 9 Minimal Version ](./install-almalinux9.md)

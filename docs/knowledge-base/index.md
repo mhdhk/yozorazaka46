@@ -14,7 +14,7 @@ The following is a list of categories which grouped by tags to show all content 
 
 === ":fontawesome-brands-linux: `Linux`"
 
-    - [Alma Linux](os/almalinux/alma-index.md)
+    - [AlmaLinux](os/almalinux/alma-index.md)
     - [Debian](os/debian/debian-index.md)
     - [Ubuntu](os/ubuntusv/ubuntu-index.md)
 
